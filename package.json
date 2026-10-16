@@ -1,0 +1,15 @@
+{
+  "name": "ultimate-creations-pixel-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ultimate Creations - chat privado y formularios de pedidos",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
